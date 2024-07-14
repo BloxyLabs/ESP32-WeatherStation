@@ -12,6 +12,16 @@ Step 3: Get your location code frome OpenWeather
 
 Step 4: Install the IDE libraries
 
+WiFi.h
+ArduinoJson.h
+Wire.h
+Adafruit_GFX.h
+Adafruit_SSD1306.h
+NTPClient.h 
+WiFiUdp.h
+
+
+
 Step 5: Customise the code
 
 Step 6: Upload the code to the ESP32
