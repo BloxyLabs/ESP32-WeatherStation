@@ -13,11 +13,14 @@ Step 3: Get your location code frome OpenWeather
 Step 4: Install the IDE libraries
 
 WiFi.h
-ArduinoJson.h
+ArduinoJson by Benoit Blanchon
 Wire.h
-Adafruit_GFX.h
-Adafruit_SSD1306.h
-NTPClient.h 
+Adafruit GFX Library by Adafruit
+Adafruit SSD1306 by Adafruit
+NTPClient by Fabrice Weinberg
+or
+NTPClient_Generic by Fabrice Weinberg
+
 WiFiUdp.h
 
 
