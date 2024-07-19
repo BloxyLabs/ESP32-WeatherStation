@@ -10,18 +10,18 @@
 
 Adafruit_SSD1306 display(128, 64, &Wire, -1);
 
-const char* ssid     = "YOURSSID";                 // SSID of local network
-const char* password = "YOURWIFIPASSWORD";                    // Password on network
+const char* ssid     = "YOURSSID";                 // SSID of your WiFi
+const char* password = "YOURWIFIPASSWORD";                    // WiFi Password
 String APIKEY = "YOURAPIKEY";
-String CityID = "2745912";          //Your City ID
+String CityID = "2745912";          //Your City Code
 bool id = false;
 WiFiClient client;
-char servername[] = "api.openweathermap.org";            // remote server we will connect to
+char servername[] = "api.openweathermap.org"; 
 String result;
 
 WiFiUDP ntpUDP;
 //NTPClient timeClient(ntpUDP);
-NTPClient timeClient(ntpUDP, "my.pool.ntp.org", 7200, 60000); // GMT +1 = 3600 and GMT +2 = 7200 etc.
+NTPClient timeClient(ntpUDP, "my.pool.ntp.org", 7200, 60000);  // GMT +1 = 3600 and GMT +2 = 7200 etc. GMT -1=-3600 and GMT -2 = -7200 etc.
 
 // Variables to save date and time
 String formattedDate;
@@ -70,7 +70,7 @@ void setup() {
   // GMT +8 = 28800
   // GMT -1 = -3600
   // GMT 0 = 0
-  //timeClient.setTimeOffset(3600); - As result Malaysia is GMT + 8, therefore, the value will be 28800                    
+  //timeClient.setTimeOffset(3600); - The Netherlands is GMT + 1 in the winter and GMT + 2 in the summer, therefore, the value will be 3600 or 7200                    
   //getData();
   //delay(500);
 */
