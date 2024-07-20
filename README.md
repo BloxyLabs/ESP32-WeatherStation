@@ -7,7 +7,7 @@ Execute the following steps to upload the code to your ESP32
 <br>
 <br>
 **Step 1:** Connect the Oled screen to your ESP32 <br>
-You can find the instruction how to connect the oled screen to your ESP32 in the related video on our [YouTube](https://www.youtube.com/@bloxylabs "YouTube") channel.  
+You can find the instruction how to connect the oled screen to your ESP32 in the related video on our [YouTube](https://youtu.be/cilyIH6OYY8 "YouTube") channel.  
 <table>
 <thead>
   <tr>
