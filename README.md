@@ -6,8 +6,35 @@ If you had fun with the projects, please consider buying us a [cup of coffee](ht
 Execute the following steps to upload the code to your ESP32
 <br>
 <br>
-**Step 1:** Connect the Oled screen to your ESP32 <br><
+**Step 1:** Connect the Oled screen to your ESP32 <br>
 You can find the instruction how to connect the oled screen to your ESP32 in the related video on our [YouTube](https://www.youtube.com/@bloxylabs "YouTube") channel.  
+<table>
+<thead>
+  <tr>
+    <th>I2C OLED</th>
+    <th>ESP32 pin</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>VCC</td>
+    <td>Vin</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+  <tr>
+    <td>SCL</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>SDA</td>
+    <td>21</td>
+  </tr>
+</tbody>
+</table>
+
 
 **Step 2:** Create a OpenWeather API and get your location code <br>
 Go to the [OpenWeather](https://openweathermap.org "OpenWeather") website. Create a acoount and retrieve you API key from the user menu. Then search for the weather at your location. When the weather at your location is retrieved, just copy the code from your address bar. You need your api key and location code in step 4.
