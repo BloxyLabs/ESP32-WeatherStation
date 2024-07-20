@@ -3,7 +3,7 @@
 Check also our [YouTube](https://www.youtube.com/@bloxylabs "YouTube") channel for instructions and other related information.
 If you had fun with the projects, please consider buying us a [cup of coffee](https://www.buymeacoffee.com/bloxylabs "cupofcoffee") ☕.
 
-Execute the following steps to upload the code to your ESP32
+Execute the following steps to create your own weather station.
 <br>
 <br>
 **Step 1:** Connect the Oled screen to your ESP32 <br>
